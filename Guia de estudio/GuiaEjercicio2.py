@@ -1,0 +1,5 @@
+frutas = ("manzana","platano","pera","naranja","frutilla","manzana")
+Set=set(frutas)
+Set.add("mango")
+Set.discard("platano")
+print(Set,f"tiene una cantidad de {len(Set)} elementos")
